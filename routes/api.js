@@ -4,6 +4,7 @@ var mongoose = require( 'mongoose' );
 var Post = mongoose.model('Post');
 var User = mongoose.model('User');
 
+
 //Used for routes that must be authenticated.
 isAuthenticated = function (req, res, next) {
 	// if user is authenticated in the session, call the next() to call the next request handler 

@@ -12,7 +12,7 @@ mongoose.Promise = global.Promise;
 //mongoose.connect("mongodb://localhost:27017/chirp-test");
 
 //if(process.env.DEV_ENV){
-	//mongoose.connect('mongodb://localhost:27017/chirp-test');
+//mongoose.connect('mongodb://localhost:27017/chirp-test');
 //}
 //else{
 //	mongoose.connect('mongodb://sunny:AvrTUlS5XyCF7gw4TlZTx748r8BzhZCIKiwGEwX231G19bP34bgd9pGR3aMfPL78cWTt9ACawTUa9pe53rwZbA==@sunny.documents.azure.com:10255/?ssl=true&replicaSet=globaldb');

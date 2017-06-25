@@ -1,28 +1,78 @@
 <html>
-	<head>
-		<title>Chirp</title>
-		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.0/angular.js"></script>
-		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.0/angular-route.js"></script>
-		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.0/angular-resource.js"></script>
-		<script src="javascripts/chirpApp.js"></script>
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
-		<link rel="stylesheet" href="stylesheets/style.css">
-	</head>
-	<body ng-app="chirpApp">
-		<div id='main' class="container">
-			<nav class="navbar-fluid navbar-inverse navbar-fixed-top">
-				<div class="container">
-					<a class="navbar-brand" href="#"> Chirp! </a>
-					<p class="navbar-text"> Learn the MEAN stack by building this tiny app</p>
-					<p class="navbar-right navbar-text" ng-hide="authenticated"><a href="#/login">Login</a> or <a href="#/register">Register</a></p>
-					<p class="navbar-right navbar-text" ng-show="authenticated"><a href="#" ng-click="signout()">Logout</a></p>
-					<p class="navbar-right navbar-text" ng-show="authenticated">Signed in as {{current_user}}</p>
+
+<head>
+	
+	
+
+	<title>OfficeSpace</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.0/angular.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.0/angular-route.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.0/angular-resource.js"></script>
+	<script src="javascripts/chirpApp.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+	<link rel="stylesheet" href="stylesheets/style.css">
+</head>
+
+<body ng-app="chirpApp" background="/images/bkg.jpg">
+	<div id='main' class="container">
+		<nav class="navbar-fluid navbar-inverse navbar-fixed-top">
+			<div class="container">
+				<a class="navbar-brand" href="#"> <img src="/images/os-logo.png" style="display: inline-block;width:30px;height:30px;">OfficeSpace </a>
+				<p class="navbar-text"> Simplified work life.</p>
+				<p class="navbar-right navbar-text" ng-hide="authenticated"><a href="#/login">Login</a> or <a href="#/register">Register</a></p>
+				<p class="navbar-right navbar-text" ng-show="authenticated"><a href="#" ng-click="signout()">Logout</a></p>
+				<p class="navbar-right navbar-text" ng-show="authenticated">Signed in as {{current_user}}</p>
+			</div>
+		</nav>
+
+		<div class="row">
+			<div class="container">
+
+				<div class="col-md-3">
+
+					<div id="weather">
+						<span style="display: block !important; width: 250px; text-align: center; font-family: sans-serif; font-size: 12px;"><a href="http://www.wunderground.com/cgi-bin/findweather/getForecast?query=zmw:00000.1.71892&bannertypeclick=wu_clean2day" title="Vancouver, British Columbia Weather Forecast" target="_blank"><img src="http://weathersticker.wunderground.com/weathersticker/cgi-bin/banner/ban/wxBanner?bannertype=wu_clean2day_metric_cond&airportcode=CYVR&ForcedCity=Vancouver&ForcedState=Canada&wmo=71892&language=EN" alt="Find more about Weather in Vancouver, CA" width="250" /></a><br><a href="http://www.wunderground.com/cgi-bin/findweather/getForecast?query=zmw:00000.1.71892&bannertypeclick=wu_clean2day" title="Get latest Weather Forecast updates" style="font-family: sans-serif; font-size: 12px" target="_blank">Click for weather forecast</a></span>
+						<br></br>
+						<a class="twitter-timeline" data-width="450" data-height="300" href="https://twitter.com/mobify">Tweets by mobify</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>						<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+						<br></br>
+						<h4><font color="white">Tasks</font></h4>
+						<img src="/images/todo.png" alt="Mountain View" style="width:250px;height:158px;">
+
+						<br></br>
+							<div class="imagewrap">
+								<img id="myImage" src="/images/checkmywork-upload.jpg" alt="Mountain View" style="width:250px;height:120px;" onclick=src="images/checkmywork.jpg">
+								<input type="file" class="button2" value="Upload" />
+								<button onclick="document.getElementById('myImage').src='/images/checkmywork.jpg'">Submit</button>
+
+							</div>
+
+
+
+					</div>
 				</div>
-			</nav>
-			<div class="col-md-offset-2 col-md-8">
-				<div ng-view>
+
+				<div class="col-md-6">
+					<iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;mode=WEEK&amp;height=200&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=ev53l2bv9c3rdbmand89b3bgis%40group.calendar.google.com&amp;color=%23853104&amp;ctz=America%2FVancouver"
+					 style="border-width:0" width="500" height="200" frameborder="0" scrolling="no"></iframe>
+				</div>
+
+
+				<div class="col-md-3">
+
+					<div class="yellow-background">
+						
+							<div ng-view></div>
+						
+					</div>
+
 				</div>
 			</div>
 		</div>
-	</body>
+
+	</div>
+
+
+</body>
+
 </html>
+
