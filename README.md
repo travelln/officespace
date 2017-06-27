@@ -22,3 +22,9 @@ Some of the interfaces shown on the website are still images and placeholders so
 Microsoft Graph API would be used to access all the files a user has on their Microsfot One Drive accounts such as Word, Excel and powerpoint files so that our AI/Machine Learning algorithms can calculate a "Check My Work" score which is a metric that will draw on a users file as a dataset. This score will help the user to check if their work is up to a quality level that is in line iwth past submissions at a given office. Different results that we could see the algorithm being trained for using machine learning include if a code submission adheres to style standards and best practices of a company or if a certain Microsoft office file (i.e. word document) achieves a particular threshold of quality.
  
 We would like to thank Microsoft for providing us with Azure credits for the challenge that allowed us to access all the technolgies used to deploy our app quickly and easilty on their cloud hosting servers.
+
+
+Thank you for vistiing our page!
+
+Annick Lung
+Sunny Singh
