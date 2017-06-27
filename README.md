@@ -26,5 +26,5 @@ We would like to thank Microsoft for providing us with Azure credits for the cha
 
 Thank you for vistiing our page!
 
-Annick Lung
-Sunny Singh
+* Annick Lung
+* Sunny Singh
