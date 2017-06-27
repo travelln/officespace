@@ -3,4 +3,4 @@
 
 
 Link to website deployed on azure:
-[OfficeSpace Link](http://officespace-team.azurewebsites.net)
+[OfficeSpace](http://officespace-team.azurewebsites.net)
