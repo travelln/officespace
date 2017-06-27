@@ -2,9 +2,8 @@
 ![Logo](https://github.com/travelln/officespace/blob/master/public/images/cover-02.jpg)
 
 
-Link to website deployed on azure:
+Link to website deployed on Microsfot Azure:
 [OfficeSpace on Azure](http://officespace-team.azurewebsites.net)
-
 
 
 Link to YouTube video of our live presentation:
