@@ -17,8 +17,10 @@ mongoose.Promise = global.Promise;
 //else{
 //	mongoose.connect('mongodb://sunny:AvrTUlS5XyCF7gw4TlZTx748r8BzhZCIKiwGEwX231G19bP34bgd9pGR3aMfPL78cWTt9ACawTUa9pe53rwZbA==@sunny.documents.azure.com:10255/?ssl=true&replicaSet=globaldb');
 //}
-mongoose.connect("mongodb://sunny:AvrTUlS5XyCF7gw4TlZTx748r8BzhZCIKiwGEwX231G19bP34bgd9pGR3aMfPL78cWTt9ACawTUa9pe53rwZbA==@sunny.documents.azure.com:10255/?ssl=true");
+//mongoose.connect("mongodb://sunny:AvrTUlS5XyCF7gw4TlZTx748r8BzhZCIKiwGEwX231G19bP34bgd9pGR3aMfPL78cWTt9ACawTUa9pe53rwZbA==@sunny.documents.azure.com:10255/?ssl=true");
+mongoose.connect('mongodb://travelln:dbuser@ds133290.mlab.com:33290/chirpuser');
 
+// Setting Bitnami application password to '7qg65jlBOPT7'
 require('./models/models.js');
 var api = require('./routes/api');
 //We will uncomment this after implementing authenticate
