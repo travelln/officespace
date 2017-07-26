@@ -3,7 +3,8 @@
 
 
 Link to website deployed on Amazon Web Services:
-[OfficeSpace on AWS](http://http://ec2-54-88-173-78.compute-1.amazonaws.com:3000)
+[OfficeSpace on AWS](http://ec2-54-88-173-78.compute-1.amazonaws.com:3000)
+
 
 
 Link to YouTube video of our live presentation:
